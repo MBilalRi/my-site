@@ -2,80 +2,253 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>M Bilal | Business Analysis & Mathematics Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About M. Bilal</title>
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
             margin: 0;
-            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
         }
-        .container {
-            max-width: 700px;
-            margin: 50px auto;
+
+        header {
+            background: linear-gradient(135deg, #1f3c88, #3a6ea5);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            color: #1f3c88;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #1f3c88;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-box {
             background: white;
             padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         }
-        h1 {
-            color: #222;
+
+        .service-box h3 {
+            color: #3a6ea5;
+            margin-top: 0;
+        }
+
+        .portfolio ul {
+            list-style: square;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+
+        .contact {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .contact p {
+            font-size: 16px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+        }
+
+        button {
+            background-color: #1f3c88;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #16316a;
+        }
+
+        footer {
+            background-color: #1f3c88;
+            color: white;
             text-align: center;
+            padding: 15px;
+            margin-top: 40px;
         }
-        h2 {
-            color: #333;
-            margin-top: 25px;
+
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 18px;
+            border-radius: 50%;
+            font-size: 24px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
-        p {
-            line-height: 1.7;
-            font-size: 18px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 14px;
-            color: #666;
+
+        .whatsapp-btn:hover {
+            background-color: #1ebe5d;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>👋 Assalam-o-Alaikum, I'm <strong>M. Bilal</strong></h1>
+<header>
+    <h1>M Bilal</h1>
+    <p>MPhil Mathematics | Business Analysis | Academic & Professional Services</p>
+</header>
 
+<section class="about">
+    <h2>About Me</h2>
     <p>
-        Welcome to my official website! I am currently an <strong>MPhil student in Mathematics</strong> at
-        <strong>Bahauddin Zakariya University (BZU), Multan</strong>.
+        My name is <strong>M Bilal</strong>. I have completed my <strong>BS degree</strong> and 
+        currently I am a student of <strong>MPhil Mathematics</strong>.  
+        I provide high-quality academic and professional services related to 
+        <strong>Business Analysis, Data Analysis, Mathematics, and Project Support</strong>.
     </p>
-
     <p>
-        I completed my <strong>BS in Mathematics</strong> from <strong>Emerson University of Multan</strong>.
-        Mathematics has always been my passion – I enjoy problem-solving, learning new concepts, and exploring
-        how mathematics connects with real-world applications.
+        My goal is to help students, professionals, and organizations by delivering 
+        accurate, well-structured, and timely solutions that meet academic and business standards.
     </p>
+</section>
 
-    <h2>🎯 My Goals</h2>
-    <p>
-        My aim is to continue my academic and professional journey in mathematics,
-        contribute to research, and explore teaching opportunities where I can guide students
-        and share my knowledge.
-    </p>
+<section>
+    <h2>Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>📘 Assignment & Academic Help</h3>
+            <p>
+                Complete assistance in university-level assignments related to 
+                Business Analysis, Mathematics, Statistics, and Data Analysis.
+            </p>
+        </div>
 
-    <h2>📬 Contact Me</h2>
-    <p>
-        📧 Email: 
-        <a href="mailto:sargana768@gmail.com">sargana768@gmail.com</a><br>
-        📱 Contact:
-        <a href="tel:+923418225369">+92 341 8225369</a><br>
-        🧑‍💻 GitHub:
-        <a href="https://github.com/YOUR-USERNAME" target="_blank">Visit My GitHub Profile</a>
-    </p>
+        <div class="service-box">
+            <h3>📊 Power BI Dashboards</h3>
+            <p>
+                Interactive dashboards, data modeling, DAX calculations, 
+                business reports, and visual analytics using Power BI.
+            </p>
+        </div>
 
-    <div class="footer">
-        © 2025 | Designed by M. Bilal
+        <div class="service-box">
+            <h3>📈 Excel & Data Analysis</h3>
+            <p>
+                Advanced Excel work including formulas, pivot tables, dashboards, 
+                data cleaning, and automation.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <h3>🧮 Mathematics & Problem Solving</h3>
+            <p>
+                Help with pure and applied mathematics, problem solving, proofs, 
+                and exam preparation.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <h3>📑 Project & Report Writing</h3>
+            <p>
+                Final-year projects, feasibility reports, business reports, 
+                and professional documentation.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <h3>💼 Business Analysis Services</h3>
+            <p>
+                Requirement analysis, process modeling, documentation, and 
+                decision-support analysis aligned with business goals.
+            </p>
+        </div>
     </div>
-</div>
+</section>
+
+<section class="portfolio">
+    <h2>Portfolio / Samples</h2>
+    <ul>
+        <li>Power BI Sales & Performance Dashboards</li>
+        <li>Excel Financial & Operational Models</li>
+        <li>Business Feasibility & Analysis Reports</li>
+        <li>University-Level Assignments & Projects</li>
+        <li>Mathematics Problem Solving & Research Support</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <div class="contact">
+        <p><strong>📞 Phone:</strong> +92 341 8225369</p>
+        <p><strong>📧 Email:</strong> sargana768@gmail.com</p>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2026 M Bilal | All Rights Reserved
+</footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-btn" 
+   href="https://wa.me/923418225369" 
+   target="_blank"
+   title="Chat on WhatsApp">
+   💬
+</a>
 
 </body>
 </html>
